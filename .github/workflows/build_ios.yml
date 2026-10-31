@@ -2,6 +2,9 @@ name: Build IOS
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - build/ios-20261101
 
 jobs:
   Build_IOS:
